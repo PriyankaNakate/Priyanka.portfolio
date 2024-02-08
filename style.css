@@ -1,0 +1,297 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.navigation-bar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background: black;
+    z-index: 5;
+}
+.logo{
+    font-family: Arial Black;
+    font-size: 30px;
+    color: rgb(255,149,0);
+}
+.mymenus{
+    font-weight: bolder;
+    color: white;
+}
+.mymenus:hover{
+    text-decoration: underline 2px solid royalblue;
+    color: royalblue;
+}
+.allsections{
+    position: relative;
+    top: 80px;
+    width: 100%;
+}
+.section{
+    width: 100%;
+    height: 100vh;
+    border: 5px solid black;
+}
+.section h1{
+    text-align: center;
+    margin-top: 250px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.img{
+    border-radius: 40px;
+}
+.home-section{
+    border: none;
+    width: 100%;
+    background-image: url(https://qph.cf2.quoracdn.net/main-qimg-cd3fa270d69d8e71487517bacf851f3b);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 90% 2%;
+}
+.myinfo{
+    height: 450px;
+    width: 50%;
+    /* margin: 15%;
+    padding-top: 5%; */
+    margin-top: 7%;
+    padding-top: 4%;
+    margin-left: 10%;
+}
+.info-home{
+    font-size: 30px;
+    font-family: Elephant;
+    line-height: 60px;
+}
+.myname{
+    font-size: 50px;
+}
+.fsjd{
+    font-family: Elephant;
+    font-size: 33px;
+    color: rgb(133, 184, 33);
+}
+.rsm{
+    height: 60px;
+    width: 120px;
+    margin: 20px 30px;
+    border: none;
+    background-color: #138781;
+    color: white;
+    border-radius: 10px;
+    font-family: Arial Black;
+}
+.rsm:hover{
+    background-color: white;
+    color: #17736e;
+    border: 3px solid #17736e;
+    transform: scale(1.1);
+}
+
+/* .about-section{
+    background-color: whitesmoke;
+    border: none;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    padding: 20px;
+    top: 0px;
+    left: 0px;
+} */
+/* .myimg{
+    height: 600px;
+    width: 50%;
+    background-image: url(priyanka.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+} */
+/* .myimg{
+    border-radius: 10PX;
+    width: 40%;
+} */
+/* .cobj{
+    /* padding: 30px 60px; */
+    /* height: 600px;
+    width: 50%;
+}  */
+/* .carrer{
+    text-align: justify;
+    /* font-size: 22px; */
+    /* margin-top: 30px; */
+    /* text-indent: 20%; */
+    /* font-family: sans-serif;
+    font-weight: bolder; */
+    /* line-height: 30px; */
+    /* padding-top: 0px;
+    display: flex;
+    justify-content: left;
+    padding-left: 10%;
+    align-items: left;
+}  */
+
+.about-section{
+    top: 0px;
+    left:0px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    border: none;
+}
+.about-img{
+    width: 50%;
+    height: 100vh;
+    /* background-image: url(priyanka.jpg);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center; */
+}
+.about-img img{
+    border-radius: 10%;
+    height: 60%;
+    width: 55%;
+    margin-top: 20%;
+    margin-left: 15%;
+    box-shadow: 0px 0px 10px gray;
+}
+.about-content{
+   margin-left: 0px;
+    width: 50%;
+    height: 100vh;
+    margin-top: 10%;
+    padding-left: 0px;
+    text-align: justify;
+}
+.about-content h2{
+    font-family: cursive;
+    color: royalblue;
+}
+.about-content p{
+    margin-left: 5%;
+    line-height: 35px;
+}
+pre{
+    margin-left: 5%;
+    color: royalblue;
+}
+.skills-section{
+    top: 0px;
+    left:0px;
+    width: 100%;
+    height: 100vh;
+    border: none;
+}
+.skill1{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 20px;
+}
+.lang{
+    width: 50%;
+    height: 50vh;
+    background-color: aliceblue;
+    margin-right: 20px;
+}
+.lang:hover{
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px gray;
+}
+.frame{
+    width:50%;
+    height: 50vh;
+    background-color: antiquewhite;
+}
+.frame:hover{
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px gray;
+}
+.skill2{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.tool{
+    width: 50%;
+    height: 50vh;
+    background-color: antiquewhite;
+    margin-right: 20px;
+}
+.tool:hover{
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px gray;
+}
+.os{
+    width: 50%;
+    height: 50vh;
+    background-color:aliceblue;
+}
+.os:hover{
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px gray;
+}
+.project-section{
+    padding: 20px;
+    border: none;
+}
+.all-projects{
+    margin-top: 40px;
+}
+.card-title{
+    color: #138781;
+    font-weight: bolder;
+}
+.card-img-top{
+    height: 200px;
+    width: 200px;
+}
+.project-section{
+    height: 900px;
+}
+.contact-section{
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    border: none;
+}
+.con{
+    height: 100vh;
+    width: 50%;
+    display: justify;
+}
+.form{
+    height: 100vh;
+    width: 50%;
+    padding-top: 15%;
+    justify-content: left;
+}
+.text{
+    width: 70%;
+    height: 50px;
+    margin-left: 5%;
+    border: none;
+    border-bottom: 3px solid black;
+    outline: none;
+    font-size: 15px;
+}
+.btn{
+    border: none;
+    cursor: pointer;
+    height: 45px;
+    width: 70%;
+    background-color: royalblue;
+    color: white;
+    font-family: Arial black;
+    font-size: 20px;
+    border-radius: 7px;
+    margin-left: 5%;
+}
